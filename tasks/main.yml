@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-pftd-app
+  - name: Install java jdk 11
+    include_tasks: prepare.yml
